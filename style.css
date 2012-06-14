@@ -1,0 +1,19 @@
+﻿* {
+    margin: 0 auto;
+    padding: 0 auto;
+    border: 0;
+}
+
+#metawrapper {
+    width: 980px;
+    height: 100%;
+    min-height: 1000px;
+    margin-top: 2px;
+    background-color: grey;
+}
+
+#wrapper {
+    width: 980px;
+    font-size: 1.3em;
+    line-height: 1.5em; 
+}
