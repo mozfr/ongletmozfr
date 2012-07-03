@@ -422,7 +422,7 @@ Tabzilla.content =
     + '      </li>'
     + '      <li id="tabzilla-search">'
     + '        <form title="Rechercher sur les sites Mozilla" role="search" action="http://www.google.com/cse">'
-    + '          <input type="hidden" value="002443141534113389537:ysdmevkkknw" name="cx">'
+    + '          <input type="hidden" value="012979626855902919476:dbllh5qyali" name="cx">'
     + '          <input type="hidden" value="FORID:0" name="cof">'
     + '          <label for="q">Recherche</label>'
     + '          <input type="search" placeholder="Recherche" id="q" name="q">'
