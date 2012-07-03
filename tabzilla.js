@@ -336,7 +336,7 @@ Tabzilla.open = function()
         // jQuery animation fallback
         jQuery(Tabzilla.panel).animate({ height: 200 }, 200, 'easeInOut').toggleClass("open");;
     }
-    
+
     Tabzilla.$link.attr({
         "aria-expanded": "true",
         "title": Tabzilla.LINK_TITLE.OPENED
@@ -361,7 +361,7 @@ Tabzilla.close = function()
         jQuery(Tabzilla.panel).animate({ height: 0 }, 200, 'easeInOut', function(){
             $(this).toggleClass("open");
         });
-        
+
     }
 
     Tabzilla.$link.attr({
@@ -385,7 +385,7 @@ Tabzilla.content =
     + '  <div id="tabzilla-promo">'
     + '    <div class="snippet" id="tabzilla-promo-beta">'
     + '    <a href="http://www.mozilla.org/firefox/beta/?WT.mc_id=tzfxbeta&amp;WT.mc_ev=click">'
-    + '      <b>Téléchargez Firefox Beta</b>, donnez nous votre avis et aidez nous à'
+    + '      <b>Téléchargez Firefox Bêta</b>, donnez-nous votre avis et aidez-nous à'
     + '      améliorer Firefox.</a>'
     + '    </div>'
     + '  </div>'
@@ -401,17 +401,17 @@ Tabzilla.content =
     + '        <ul>'
     + '          <li><a href="http://wiki.mozfr.org/Contribuer_aux_traductions">Traduction</a></li>'
     + '          <li><a href="http://wiki.mozfr.org/Cat%C3%A9gorie:Devops">Développement</a></li>'
-    + '          <li><a href="http://www.geckozone.org/forum/">Support</a></li>'
-    + '          <li><a href="http://wiki.mozfr.org/Cat%C3%A9gorie:Techno">Education & promotion technique</a></li>'
+    + '          <li><a href="http://www.geckozone.org/forum/">Assistance</a></li>'
+    + '          <li><a href="http://wiki.mozfr.org/Cat%C3%A9gorie:Techno">Éducation et promotion technique</a></li>'
     + '          <li><a href="http://wiki.mozfr.org/Cat%C3%A9gorie:Communication">Communication</a></li>'
     + '        </ul>'
     + '      </li>'
-    + '      <li><h2>Produits</h2>'
+    + '      <li><h2>Logiciels</h2>'
     + '        <ul>'
     + '          <li><a href="http://www.mozilla.org/fr/firefox/fx/">Firefox</a></li>'
     + '          <li><a href="http://www.mozilla.org/fr/thunderbird/">Thunderbird</a></li>'
-    + '          <li><a href="https://wiki.mozilla.org/B2G">Boot to Gecko</a></li>'
-    + '          <li><a href="https://addons.mozilla.org/fr/firefox/">Addons</a></li>'
+    + '          <li><a href="https://wiki.mozilla.org/B2G">Firefox OS</a></li>'
+    + '          <li><a href="https://addons.mozilla.org/fr/firefox/">Extensions</a></li>'
     + '        </ul>'
     + '      </li>'
     + '      <li><h2>Participer</h2>'
@@ -421,11 +421,11 @@ Tabzilla.content =
     + '        </ul>'
     + '      </li>'
     + '      <li id="tabzilla-search">'
-    + '        <form title="Search Mozilla sites" role="search" action="http://www.google.com/cse">'
+    + '        <form title="Rechercher sur les sites Mozilla" role="search" action="http://www.google.com/cse">'
     + '          <input type="hidden" value="002443141534113389537:ysdmevkkknw" name="cx">'
     + '          <input type="hidden" value="FORID:0" name="cof">'
-    + '          <label for="q">Search</label>'
-    + '          <input type="search" placeholder="Search" id="q" name="q">'
+    + '          <label for="q">Recherche</label>'
+    + '          <input type="search" placeholder="Recherche" id="q" name="q">'
     + '        </form>'
     + '      </li>'
     + '    </ul>'
