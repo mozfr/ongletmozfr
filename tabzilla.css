@@ -308,6 +308,9 @@
 
 /* MozFR Mod */
 
+#tabzilla-promo {
+    width: 260px;
+}
 #tabzilla-panel #tabzilla-nav h2,
 #tabzilla-panel #tabzilla-nav ul li#tabzilla-search form {
     margin-left:5px;
@@ -324,4 +327,8 @@
 #tabzilla-panel #tabzilla-nav,
 #tabzilla-panel #tabzilla-nav h2 {
     text-transform: none;
+}
+
+#tabzilla + * {
+    clear: right;
 }
