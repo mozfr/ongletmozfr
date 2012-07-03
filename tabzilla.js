@@ -385,7 +385,7 @@ Tabzilla.content =
     + '  <div id="tabzilla-promo">'
     + '    <div class="snippet" id="tabzilla-promo-beta">'
     + '    <a href="https://www.mozilla.org/fr/firefox/beta/">'
-    + '      <b>Téléchargez Firefox Bêta</b>, donnez-nous votre avis et aidez-nous à'
+    + '      <b>Téléchargez<br/>Firefox Bêta</b> Donnez-nous votre avis et aidez-nous à'
     + '      améliorer Firefox.</a>'
     + '    </div>'
     + '  </div>'
