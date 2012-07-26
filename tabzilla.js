@@ -413,7 +413,7 @@ Tabzilla.content =
     + '        <ul>'
     + '          <li><a href="https://www.mozilla.org/fr/firefox/fx/">Firefox</a></li>'
     + '          <li><a href="https://www.mozilla.org/fr/thunderbird/">Thunderbird</a></li>'
-    + '          <li><a href="https://wiki.mozilla.org/B2G">Firefox OS</a></li>'
+    + '          <li><a href="https://www.mozilla.org/en-US/b2g/">Firefox OS</a></li>'
     + '          <li><a href="https://addons.mozilla.org/fr/">Extensions</a></li>'
     + '        </ul>'
     + '      </li>'
